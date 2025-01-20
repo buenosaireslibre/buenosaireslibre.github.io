@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller_PCra Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <h2>Galeria de Taller_PCra</h2>
+        <a href="index.html" class="back-link">Back to Main</a>
+    </header>
+    <main>
+        <div class="film-strip">
+            <img src="../albums/Taller/PCra/PCra--Overview-Night-shot.jpg" alt="Image" loading="lazy" class="film-image" onclick="showModal('../albums/Taller/PCra/PCra--Overview-Night-shot.jpg')">
+<img src="../albums/Taller/PCra/PCra--Close-Up-Sopapa.jpg" alt="Image" loading="lazy" class="film-image" onclick="showModal('../albums/Taller/PCra/PCra--Close-Up-Sopapa.jpg')">
+<img src="../albums/Taller/PCra/PCra--Fuente-Y-Micro-Sin-Cooler.jpg" alt="Image" loading="lazy" class="film-image" onclick="showModal('../albums/Taller/PCra/PCra--Fuente-Y-Micro-Sin-Cooler.jpg')">
+<img src="../albums/Taller/PCra/PCra--Esquina.jpg" alt="Image" loading="lazy" class="film-image" onclick="showModal('../albums/Taller/PCra/PCra--Esquina.jpg')">
+<img src="../albums/Taller/PCra/PCra--Close-Up-Micro-Sin-Cooler.jpg" alt="Image" loading="lazy" class="film-image" onclick="showModal('../albums/Taller/PCra/PCra--Close-Up-Micro-Sin-Cooler.jpg')">
+<img src="../albums/Taller/PCra/PCra--Overview.jpg" alt="Image" loading="lazy" class="film-image" onclick="showModal('../albums/Taller/PCra/PCra--Overview.jpg')">
+
+        </div>
+    </main>
+    <div id="modal" class="modal" onclick="hideModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+    
+</body>
+</html>
